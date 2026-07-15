@@ -1,4 +1,4 @@
-# 🔒 SPS — Sandbox Pentest Server
+# SPS — Sandbox Pentest Server
 
 > *A Raspberry Pi-based portable pentesting sandbox — your own private hacking lab, no external platforms needed.*
 
