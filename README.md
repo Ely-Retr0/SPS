@@ -1,4 +1,4 @@
-# 🛡️ SPS — Sandbox Pentest Server (Bunker Mode)
+#  SPS — Sandbox Pentest Server (Bunker Mode)
 
 > *A Raspberry Pi-based portable pentesting sandbox — your own private hacking lab, no external platforms needed.*
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 🧠 What is SPS?
+## What is SPS?
 
 **SPS (Sandbox Pentest Server)** is a self-hosted, portable penetration testing lab running on a **Raspberry Pi 4**. It provides a fully isolated environment with intentionally vulnerable machines and services — so you can practice real-world pentesting techniques **without relying on external platforms**.
 
@@ -18,7 +18,7 @@ By configuring the Raspberry Pi as an independent Wireless Access Point (**Bunke
 
 ---
 
-## ⚖️ Why SPS?
+##  Why SPS?
 
 | Feature | External Platforms | SPS |
 |---|---|---|
@@ -31,7 +31,7 @@ By configuring the Raspberry Pi as an independent Wireless Access Point (**Bunke
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -59,7 +59,7 @@ By configuring the Raspberry Pi as an independent Wireless Access Point (**Bunke
 
 ---
 
-## 🛠️ Hardware Requirements
+##  Hardware Requirements
 
 | Component | Specification |
 |---|---|
@@ -71,7 +71,7 @@ By configuring the Raspberry Pi as an independent Wireless Access Point (**Bunke
 
 ---
 
-## 🚀 Installation Guide
+##  Installation Guide
 
 > **Prerequisites:** Fresh Debian 12 install on the Pi, temporarily connected via **Ethernet** (with internet access) to download packages.
 
@@ -169,7 +169,7 @@ docker run -d \
 
 ---
 
-## 🎯 Accessing Your Lab
+##  Accessing Your Lab
 
 Connect to the Pi's Wi-Fi from your attacker machine, then open your browser:
 
@@ -183,7 +183,7 @@ Connect to the Pi's Wi-Fi from your attacker machine, then open your browser:
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 <details>
 <summary><b>I forgot my Portainer password and the Pi has no internet</b></summary>
@@ -243,7 +243,7 @@ docker start portainer
 
 ---
 
-## 🛑 Safe Shutdown
+## Safe Shutdown
 
 > The Pi runs its OS on a microSD card. **Never unplug it without shutting down first** — abrupt power loss can corrupt the filesystem.
 
@@ -265,10 +265,9 @@ The author assumes no responsibility for misuse of this project.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Elias Diaz Gutierrez** — [@Ely-Retr0](https://github.com/Ely-Retr0)
-
+Think outside the firewall.
 ---
 
-*Built with a Pi, a dream, and too much coffee. ☕*
