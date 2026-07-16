@@ -1,4 +1,4 @@
-#  SPS — Sandbox Pentest Server (Bunker Mode)
+#  SPS — Sandbox Pentest Server 
 
 > *A Raspberry Pi-based portable pentesting sandbox — your own private hacking lab, no external platforms needed.*
 
@@ -268,6 +268,7 @@ The author assumes no responsibility for misuse of this project.
 ##  Author
 
 **Elias Diaz Gutierrez** — [@Ely-Retr0](https://github.com/Ely-Retr0)
+
 Think outside the firewall.
 ---
 
