@@ -6,8 +6,8 @@
 ![Hardware](https://img.shields.io/badge/hardware-Raspberry%20Pi%204-C51A4A?style=flat-square)
 ![Docker](https://img.shields.io/badge/orchestration-Docker-2496ED?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-00599C?style=flat-square)
-![OS](https://img.shields.io/badge/OS-Debian%2012%20ARM64-A81D33?style=flat-square)
-
+![Debian](https://img.shields.io/badge/Debian-12-A81D33?style=flat-square&logo=debian&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi%20OS-Lite-C51A4A?style=flat-square&logo=raspberrypi&logoColor=white)
 ---
 
 ## What is SPS?
