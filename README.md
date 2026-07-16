@@ -34,22 +34,22 @@ By configuring the Raspberry Pi as an independent Wireless Access Point (**Bunke
 ##  Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│               Raspberry Pi 4 — SPS Host                     │
+┌─────────────────────────────────────────────────────────────────────────────────  ┐
+│               Raspberry Pi 4 — SPS Host                                           │
 │  [ OS: Debian 12 / Raspberry Pi OS Lite ARM64 ]  [ RAM: 8GB ]  [ SD: 128GB ]      │
-│                                                             │
-│  📡 WIRELESS INTERFACE (RaspAP — Bunker Mode)               │
-│  ├─ SSID:    RaspAP (customizable)                          │
-│  ├─ Subnet:  10.3.141.0/24                                  │
-│  └─ Gateway: 10.3.141.1  (static)                          │
-│                                                             │
-│  🐳 DOCKER ENGINE                                           │
-│  └─ Internal Bridge Network: lab-net                        │
-│      ├─ Portainer CE   → :9000  (management dashboard)     │
-│      ├─ OWASP JuiceShop→ :3000  (modern web app target)    │
-│      ├─ DVWA           → :8080  (classic vulnweb target)   │
-│      └─ MariaDB        → :3306  (internal only, no expose) │
-└──────────────────────────▲──────────────────────────────────┘
+│                                                                                   │
+│  📡 WIRELESS INTERFACE (RaspAP — Bunker Mode)                                     │
+│  ├─ SSID:    RaspAP (customizable)                                                │
+│  ├─ Subnet:  10.3.141.0/24                                                        │
+│  └─ Gateway: 10.3.141.1  (static)                                                 │
+│                                                                                   │
+│  🐳 DOCKER ENGINE                                                                 │
+│  └─ Internal Bridge Network: lab-net                                              │
+│      ├─ Portainer CE   → :9000  (management dashboard)                            │
+│      ├─ OWASP JuiceShop→ :3000  (modern web app target)                           │
+│      ├─ DVWA           → :8080  (classic vulnweb target)                          │
+│      └─ MariaDB        → :3306  (internal only, no expose)                        │
+└──────────────────────────▲────────────────────────────────────────────────────── ─┘
                            │
                            │  Direct Wi-Fi Connection
                            ▼
