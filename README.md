@@ -36,7 +36,7 @@ By configuring the Raspberry Pi as an independent Wireless Access Point (**Bunke
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │               Raspberry Pi 4 — SPS Host                     │
-│  [ OS: Debian 12 ARM64 ]  [ RAM: 8GB ]  [ SD: 128GB ]      │
+│  [ OS: Debian 12 / Raspberry Pi OS Lite ARM64 ]  [ RAM: 8GB ]  [ SD: 128GB ]      │
 │                                                             │
 │  📡 WIRELESS INTERFACE (RaspAP — Bunker Mode)               │
 │  ├─ SSID:    RaspAP (customizable)                          │
