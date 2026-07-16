@@ -65,7 +65,7 @@ By configuring the Raspberry Pi as an independent Wireless Access Point (**Bunke
 |---|---|
 | Board | Raspberry Pi 4 Model B (8GB RAM recommended) |
 | Storage | 64GB+ microSD (128GB recommended) |
-| OS | Debian 12 — Native ARM64 |
+| OS | Debian 12 or Raspberry Pi OS Lite — Native ARM64 |
 | Network | Built-in WiFi (no extra hardware needed) |
 | Power | Official Pi 4 USB-C PSU (5V/3A) |
 
